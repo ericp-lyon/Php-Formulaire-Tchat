@@ -1,0 +1,13 @@
+
+#Use app.php for project entry point
+DirectoryIndex app.php
+
+#Turn RewriteEngine to On
+RewriteEngine On
+
+#Deliver static file
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+#Trigger app.php and add query string append flag
+RewriteRule ^(.*)$ app.php [QSA,L]

@@ -1,0 +1,39 @@
+{
+	"home": {
+	
+		"path": "/formation-php/web/",
+		"controller": "\\App\\Controller\\Home::home"
+	
+	},
+	"signup": {
+	
+		"path": "/formation-php/web/signup",
+		"controller": "\\App\\Controller\\Signup::signup"
+	
+	},
+	"signin": {
+	
+		"path": "/formation-php/web/signin",
+		"controller": "\\App\\Controller\\Signin::signin"
+	
+	},
+	"signout": {
+	
+		"path": "/formation-php/web/signout",
+		"controller": "\\App\\Controller\\Signout::signout"
+	
+	},
+	"channel": {
+	
+		"path": "/formation-php/web/channel",
+		"controller": "\\App\\Controller\\Channel::channel"
+	
+	},	
+	"channelApi": {
+	
+		"path": "/formation-php/web/api/channel",
+		"controller": "\\App\\Controller\\Api\\Channel::channel"
+	
+	}
+	
+}

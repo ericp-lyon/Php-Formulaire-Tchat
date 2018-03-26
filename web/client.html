@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Formation-php</title>
+</head>
+
+
+
+<body>
+<h1>client ok</h1>
+ <script type="text/javascript">
+ var xhr = new XMLHttpRequest();
+ 
+	 xhr.open("GET", "/formation-php/web/api/channel?id=21");
+ 	 xhr.setRequestHeader("Accept", "application/json");// ajout autorisation du format json
+	 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  	 xhr.send("message=message transmis dans la BDD");// ajouter un argument a send lors d'une post
+    </script>
+
+</body>
+</html>

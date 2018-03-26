@@ -1,0 +1,5 @@
+/app/config/parameters.yml
+/web/node_modules
+test/
+vendor/
+Diagram.ucls
